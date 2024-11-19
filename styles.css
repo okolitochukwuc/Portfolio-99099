@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #12033e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#img-fld {
+    display: flex;
+}
+
+#img-fld img {
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+    
+    
+}
+
+.profile-photo, .portfolio-image {
+    max-width: inherit;
+    height: auto;
+    margin: 10px;
+}
+
+#cv {
+    margin-left: 20px;
+}
+
+.hd-exp {
+    margin: 0 40%;
+    align-self: center;
+    
+}
+
+.skill-para {
+    display: flex;
+}
+
+.skill-para-ele {
+    margin-left: 17%;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
